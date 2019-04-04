@@ -1,0 +1,216 @@
+    1  sudo su
+    2  exit
+    3  sudo su
+    4  exit
+    5  sudo su
+    6  exit
+    7  sudo su
+    8  dpkg -i oracle-xe_11.2.0-2_amd64.deb
+    9  sudo dpkg -i oracle-xe_11.2.0-2_amd64.deb
+   10  sudo su
+   11  jobs
+   12  ps
+   13  sudo su
+   14  exit
+   15  exit
+   16  sudo su
+   17  git config --global user.name"javier301"
+   18  git config --global user.email javier.vela.301@gmail.com
+   19  git config --global credential.helper cache
+   20  git config --global color.iu auto
+   21  git config --list
+   22  git config --global user.name "javier301"
+   23  git config --list
+   24  mkdir libro 
+   25  cd libro
+   26  git init
+   27  ls -la
+   28  git status 
+   29  gedit indice.txt
+   30  git status
+   31  gir add indice.txt
+   32  git add indice.txt
+   33  git status
+   34  git commit -m "Añadido indice del libro."
+   35  git status
+   36  ls -la
+   37  git remote add origin https://github.com/javier301/libro
+   38  git init
+   39  git estatus
+   40  git status
+   41  git remote add origin https://github.com/javier301/libro
+   42  git pull origin master
+   43  git add
+   44  git add .
+   45  git status
+   46  git commit -m "primera subida"
+   47  git push origin master
+   48  gedit indice.txt
+   49  git diff
+   50  git add indice.txt
+   51  git commit -m "Añadido capitulo 3 sobre gestion de ramas al indice"
+   52  git status
+   53  gedit indice.txt
+   54  git diff
+   55  git pull origin master
+   56  git add .
+   57  git commit -m "añadido capitulo 3 sobre gestion de ramas"
+   58  git push origin master
+   59  git show
+   60  mkdir capitulos
+   61  cd capitulos
+   62  gedit capitulo1.txt
+   63  cd /libro
+   64  cd 
+   65  cd libro
+   66  git pull origin master
+   67  git commit -m "añadido capitulo 1"
+   68  git add .
+   69  git commit -m "añadido capitulo 1"
+   70  git status
+   71  git push origin master
+   72  git log
+   73  cd libros
+   74  cd libro
+   75  cd capitulos
+   76  gedit capitulo2.txt
+   77  git pull origin master
+   78  git status
+   79  cd libro
+   80  cd
+   81  cd libro
+   82  git add .
+   83  git commit -m "añadido capitulo 2"
+   84  git push origin master
+   85  git log
+   86  cd libro
+   87  cd capitulos
+   88  git log
+   89  gedit capitulo3.txt
+   90  git pull origin master
+   91  cd
+   92  cd libro
+   93  git add .
+   94  git commit -m "añadido capitulo 3"
+   95  git push origin master
+   96  cd capitulos
+   97  gedit capitulo4.txt
+   98  ls
+   99  cd
+  100  cd libro
+  101  ls
+  102  gedit indice.txt
+  103  git pull origin master
+  104  git add .
+  105  git commit -m "añadido caputolo 5 al inidice"
+  106  git push origin master
+  107  history
+  108  ls -la
+  109  cd libro
+  110  gedit indice.txt
+  111  git estatus
+  112  git status
+  113  check out
+  114  git check out
+  115  git checkout
+  116  git status
+  117  git status indice.txt
+  118  git status
+  119  git checkout indice.txt
+  120  git status
+  121  gedit indice.txt
+  122  git pull origin master
+  123  git push origin master
+  124  git pull origin master
+  125  git status
+  126  git commit -m "eliminada ultima linea"
+  127  git add .
+  128  git pull origin master
+  129  git commit -m "eliminada ultima linea"
+  130  git push origin master
+  131  git reset inidice.txt
+  132  git --reset inidice.txt
+  133  git reset 
+  134  git checkout 04b65b6 indice.txt
+  135  git status
+  136  git add .
+  137  git status
+  138  git checkout 83081f0 indice.txt
+  139  git status
+  140  git pull origin master
+  141  git add .
+  142  git status
+  143  git commit -m "recuperado" 
+  144  git push origin master
+  145  gedit indice.txt
+  146  git status
+  147  git checkout indice.txt
+  148  git status
+  149  gedit indice.txt
+  150  cd capitulos
+  151  rm capitulo3.txt
+  152  gedit capitulo4.txt
+  153  git status
+  154  git add .
+  155  git status
+  156  cd libro
+  157  cd
+  158  cd libro
+  159  git add .
+  160  git staus
+  161  git status
+  162  git checkout 
+  163  git status
+  164  git status DAM
+  165  git status
+  166  git checkout .
+  167  git status
+  168  git checkout *
+  169  git status
+  170  git checkout indice.txt
+  171  git status
+  172  git reset .
+  173  git status
+  174  git checkout .
+  175  git status
+  176  git checkout 83081f0 
+  177  git checkout 83081f0 .
+  178  git status
+  179  git checkout 83081f0 *
+  180  cd capitulos
+  181  rm capitulo4.txt
+  182  cd 
+  183  cd cpitulos
+  184  cd capitulos
+  185  cd libro
+  186  gedit indice.txt
+  187  cd capitulos
+  188  rm capitulo3.txt
+  189  git add .
+  190  git status
+  191  cd
+  192  cd libro
+  193  git add .
+  194  git status
+  195  git commit -m "borrado accidental"
+  196  git reset .
+  197  git status
+  198  git checkout .
+  199  git reset .
+  200  git reset 
+  201  git status
+  202  git checkout 
+  203  git status
+  204  cd
+  205  mkdir historial
+  206  cd historial
+  207  git init
+  208  git status
+  209  git remove add origin https://github.com/javier301/history
+  210  git remote add origin https://github.com/javier301/history
+  211  git pull origin master
+  212  git status
+  213  git add .
+  214  git commit -m "primera subida"
+  215  git push origin master
+  216  history > hitorial_deshacer_cambios.txt
